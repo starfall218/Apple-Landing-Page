@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+header {
+  width: 100%;
+  cursor: pointer;
+}
+section {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  height: 48px;
+  background-color: rgba(5, 5, 5, 0.88);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+nav .nav-box {
+  margin: auto;
+  width: 95%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+.nav-box button {
+  background-color: transparent;
+  border: none;
+}
+svg {
+  fill: white;
+  color: white;
+}
+.menu-icons .icon-one {
+  margin-right: 1.5rem;
+}
+nav .nav-box ul {
+  display: none;
+}
+.logo {
+  width: 90%;
+}
+nav .nav-box {
+  justify-content: space-between;
+}
+.nav-box .burger {
+  display: flex;
+  margin-left: 18px;
+}
+.box svg {
+  margin-left: 10px;
+}
+.nav-box .box {
+  display: flex;
+  align-items: center;
+}
+/* Section One properties */
+.section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 470px;
+  background-image: url('./../images/jpgs/hero_iphone16pro_avail__fnf0f9x70jiy_small_2x.jpg');
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  text-align: center;
+}
+ h2 {
+  color: #fff;
+  text-wrap: wrap;
+  font-size: 25px;
+}
+.section-one .spacing {
+  height: 300px;
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.btn {
+  font-size: 14px;
+  width: 82px;
+  height: 23px;
+  min-width: 30px;
+  margin-top: 15px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+}
+.blue {
+  background-color: #0071E3;
+  color: #fff;
+}
+.white {
+  background-color: #fff;
+  color: black;
+}
+/* Section Two */
+.section-two {
+  height: 600px;
+  background-image: url('./../images/jpgs/hero_iphone16_avail__euwzls69btea_small.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  text-align: center;
+}
+.section-two h2 {
+  font-size: 2rem;
+}
+.section-two .spacing {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 10px;
+}
+/* Section three */
+.section-three {
+  background-color: rgb(245, 245, 247);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  zoom: 5fr;
+}
+.section-three .spacing {
+  height: 10px;
+}
+.section-three figure {
+  background-image: url('./../images/jpgs/hero_macbook_air\ for\ mobile.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  width: 70%;
+  height: 70vh;
+  zoom: 3fr;
+}
+.section-three h2 {
+  color: black;
+  font-size: 2rem;
+}
+.section-three p {
+  font-size: 20px;
+}
+/* Section four */
+.section-four .flexbox-one {
+  width: 100%;
+  height: 500px;
+  background-image: url('./../images/jpgs/promo_macbookpro_announce__gdf98j6tj2ie_small.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+.black {
+  background-color: rgba(5, 5, 5, 0.88);
+}
+.sectbox {
+  width: 100%;
+  margin: 0;
+}
+.section-four .spacing {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+/* .section-four .flexbox-two .spacing {
+  height: 20px;
+} */
+.section-four .btn {
+  font-size: 14px;
+  width: 80px;
+  padding: 11px 17px;
+  height: 17px;
+}
+.flexbox-two {
+  background-image: url('./../images/jpgs/promo_ipadair__cu1bnxi7uuwm_small.jpg');
+}
+.flexbox-two h2 {
+  width: 30%;
+  margin: auto;
+}
+.flexbox-two, .flexbox-three, .flexbox-four {
+  width: 100%;
+  height: 500px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 10px;
+}
+.flexbox-three {
+  background-image: url('./../images/jpgs/promo_ipadpro__ch217v9v7no2_small_2x.jpg');
+  color: #fff;
+}
+.flexbox-three h2 {
+  font-size: 25px;
+}
+.flexbox-three .spacing {
+  height: 36px;
+}
+
+.flexbox-three button {
+  display: block;
+  margin: 15px auto;
+}
+.flexbox-four {
+  background-image: url('./../images/jpgs/promo_ipad__fioegapg12qi_small_2x.jpg');
+}
+.flexbox-four h2 {
+  font-size: 25px;
+  color: #000;
+}
+.flexbox-four .spacing {
+  height: 36px;
+}
+/* The footer style properties */
+footer {
+  font-size: 13px;
+  height: 304px;
+  width: 100%;
+  background-color: rgb(245, 245, 247);
+  color: rgba(0, 0, 0, 0.56);
+  margin-top: 10px;
+}
+.footerbox {
+  width: 94%;
+  height: max-content;
+  margin: auto;
+}
+footer .spacing {
+  width: 100%;
+  height: 20px;
+}
+footer nav {
+  background-color: transparent;
+}
+.footer-links, .footer-text {
+  display: block;
+  width: 100%;
+  height: max-content;
+  margin: auto;
+}
+.footer-links ul {
+  display: none;
+}
+footer .strong {
+  color: rgba(0, 0, 0, 0.72);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown{
+  width: 10%;
+}
+.dropdown svg {
+  color: rgba(0, 0, 0, 0.72);
+}
+footer a {
+  color: #0066CC;
+  text-decoration: underline;
+}
+.footer-text {
+  padding: 17px 0 9px 0;
+}
+.lowfooter {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.retailer {
+  margin-bottom: 8px;
+}
+.nigeria {
+  padding-top: 4px;
+  margin-top: 5px;
+}
+.rights {
+  padding-top: 12px;
+}
+.rights p {
+  margin-top: 5px;
+}
+footer .gray {
+  color: rgba(0, 0, 0, 0.72);
+}
+/* Styles for screen sizes that are 833px and above. */
+
+@media screen and (min-width: 833px)  {
+  nav .nav-box {
+    justify-content: center;
+  }
+  nav .nav-box ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    list-style: none;
+  }
+  .logo {
+    width: 48px;
+  }
+  .nav-box ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .nav-box .box {
+    display: none;
+  }
+  /* The first section */
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100vh - 48px);
+    background-image: url('./../images/jpgs/hero_iphone16pro_avail__fnf0f9x70jiy_medium_2x.jpg');
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .section-one h2 {
+    color: #fff;
+    text-wrap: wrap;
+    font-size: 3rem;
+  }
+  .section-one .spacing {
+    height: 40px;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /* Style properties for all elements with the btn class*/
+  .btn {  
+    font-size: 17px;
+    width: 97px;
+    height: 25px;
+    min-width: 30px;
+    margin-top: 15px;
+    padding: 11px 21px;
+    border-radius: 3rem;
+    border: none;
+  }
+  .section-two {
+    background-image: url('./../images/jpgs/hero_iphone16_avail__euwzls69btea_medium.jpg');
+  }
+  .section-two h2 {
+    font-size: 2.5rem;
+  }
+  .section-two .white {
+    width: 90px;
+  }
+  /* Section three */
+  .section-three figure {
+    background-image: url('./../images/jpgs/hero_macbook_air_m3__cp4t7pn8zqaa_laptop\ screensize.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 70%;
+    height: 70vh;
+    zoom: 8fr;
+  }
+  .section-three h2 {
+    font-size: 3rem;
+  }
+  .section-three p {
+    font-size: 25px;
+  }
+  /* Section Four */
+  .section-four .sectbox {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 13px;
+  }
+  .section-four .flexbox-one {
+    width: 50%;
+    height: 100vh;
+    background-image: url('./../images/jpgs/promo_macbookpro_announce__gdf98j6tj2ie_laptop.jpg');
+  }
+  .section-four .flexbox-two {
+    width: 50%;
+    height: 100vh;
+    background-image: url('./../images/jpgs/promo_ipadair__cu1bnxi7uuwm_medium.jpg');
+  }
+  /* Section four */
+  .flexbox-three p {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .flexbox-three h2, .flexbox-four h2 {
+    font-size: 30px;
+  }
+  .flexbox-three {
+    background-image: url('./../images/jpgs/promo_ipadpro__ch217v9v7no2_medium.jpg');
+  }
+  .footerbox {
+    width: 70%;
+    margin: auto;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer-links .strong {
+    border: none;
+    font-weight: 600;
+  }
+  .footer-links ul {
+    display: block;
+    list-style: none;
+  }
+  .dropdown {
+    display: none;
+  }
+  .footer-links ul li {
+    margin-bottom: 9.6px;
+  }
+  .footer-text .retailer {
+    margin: 0 0 15px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .lowfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nigeria {
+    text-align: end;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .rights p {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
